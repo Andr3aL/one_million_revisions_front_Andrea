@@ -199,42 +199,100 @@ section {
 }
 
 
-
-
-
-
+/* *********************************** MEDIA QUERIES ACCUEIL ************************* */
 
 
 @media (max-width: 575.98px) {
 
 
-#navbarNav {
-    display: none !important;
+    #navbarNav {
+        display: none !important;
+    }
+    
+    #grostexte {
+        width: 100px;
+        height: 400px;
+        /* margin-bottom: 50px; */
+    }
+    
+    .banniere {
+        height: 130vh;
+    }
+    
+    #petittexte {
+        width: 450px;
+        padding-top: 100px;
+        /* height: 100px; */
+    }
+    
+    .whoweare {
+        width: 450px;
+    
+    }
+    #rowflexcol {
+        flex-direction: column;
+    }
+    
+    }
+    
+
+
+/********************************** PAGE TEAM *********************************/
+
+
+
+#discover  {
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-family: "Roboto Slab", serif;
 }
 
-#grostexte {
-    width: 100px;
-    height: 400px;
-    /* margin-bottom: 50px; */
+h2 {
+    text-align: center;
 }
 
-.banniere {
-    height: 130vh;
+#mainteam {
+    height: 100vh;
 }
 
-#petittexte {
-    width: 450px;
-    padding-top: 100px;
-    /* height: 100px; */
+.card-img {
+    width: 100%;
+    opacity: 0 !important;
+    transition: opacity 0.5s ease-in-out;
 }
 
-.whoweare {
-    width: 450px;
 
-}
-#rowflexcol {
-    flex-direction: column;
-}
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

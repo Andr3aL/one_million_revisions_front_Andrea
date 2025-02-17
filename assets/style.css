@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Parisienne&family=Roboto+Slab:wght@100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+
+
+:root {
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+  }
+  
+header {
+    /* height: 100vh;
+    width: 100vw; */
+}
+
+/* nav */
+
+/* nav {
+    --bs-dark: #212529;
+    
+} */
+/* .bg-body-tertiary {
+    --bs-dark: #212529;
+} */
+
+.titre {
+    text-transform: uppercase !important;
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+    /* width: 100px; */
+    
+}
+
+.titreFin {
+    text-transform: uppercase !important;
+    font-weight: lighter;
+    display: inline-block;
+    /* margin-bottom: 20px; */
+}
+
+nav ul {
+    display: flex;
+    justify-content: end !important;
+}
+
+.row-revers {
+    /* width: 200px; */
+}
+
+.navbarbar {
+    background-color: #212529 !important;
+}
+
+/* header > banniere */
+
+.banniere {
+    
+    background: url(./img/hero-image.jpg) center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.banniere div p span {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#grostexte {
+    font-size: 3rem;
+    font-family: "Roboto Slab", serif;
+}
+
+section {
+
+}
+
+#learnmore {
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    font-size: 1.3rem;
+}
+
+#code {
+    display: inline-block;
+    background-image: url(./img/code.png);
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+}
+
+#sectionwhoweare {
+    height: 40vh;
+}
+
+#academy {
+ display: inline-block;
+
+}
+
+#whoweare {
+ font-size: 1.5rem;
+ text-transform: uppercase;
+ color: red;
+ padding-top: 15px;
+ font-family: "Roboto Slab", serif;
+
+}
+
+#sectionwhoweare p span {
+    color: red;
+}
+
+.barrerouge {
+    width: 100px;
+    color: red;
+    margin: 0 auto;
+    padding-bottom: 15px;
+}
+
+#getinvolved {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: red;
+    padding-top: 15px;
+    font-family: "Roboto Slab", serif;
+
+}
+
+#sectiongetinvolved {
+    /* height: 50vh; */
+}
+
+.iconback {
+    background-color: #343a40;
+    border-radius: 300px;
+    width: 75px;
+    height: 75px;
+}
+
+.bi {
+    font-size: 2.2rem;
+    color: white;
+}
+
+.card-title {
+    font-family: "Roboto Slab", serif;
+    text-transform: uppercase;
+    color: red !important;
+    font-weight: bold;
+}
+
+/* footer */
+
+#foot {
+    background-color: #e74c3c;
+    height: 30vh;
+}
+
+#divfoot {
+    height: 30vh;
+}
+
+#learnmorediv{
+    height: 200px;
+}
+
+.post-f-t {
+    display: none !important;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 575.98px) {
+
+
+#navbarNav {
+    display: none !important;
+}
+
+#grostexte {
+    width: 100px;
+    height: 400px;
+    /* margin-bottom: 50px; */
+}
+
+.banniere {
+    height: 130vh;
+}
+
+#petittexte {
+    width: 450px;
+    padding-top: 100px;
+    /* height: 100px; */
+}
+
+.whoweare {
+    width: 450px;
+
+}
+#rowflexcol {
+    flex-direction: column;
+}
+
+}
+
